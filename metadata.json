@@ -1,0 +1,6 @@
+{
+  "name": "세이프투어 (SafeTour) - 세계 분쟁 및 여행 위험지역 안내",
+  "description": "전쟁·분쟁 국가를 빨간색으로 표시하고 전 세계 여행 경보와 위험도를 색상별로 시각화하여 안전한 여행지를 선택할 수 있도록 돕는 여행 안전 안내 플랫폼입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
