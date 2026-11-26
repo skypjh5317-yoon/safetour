@@ -353,6 +353,16 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             여행자제 ({stats.level2})
           </button>
           <button
+            onClick={() => setActiveFilter('level1')}
+            className={`px-2.5 py-1.5 rounded-lg font-medium transition-all ${
+              activeFilter === 'level1'
+                ? 'bg-sky-600 text-white shadow ring-2 ring-sky-400'
+                : 'bg-slate-800/80 text-sky-400 border border-sky-900/40 hover:bg-slate-700'
+            }`}
+          >
+            여행유의 ({stats.level1})
+          </button>
+          <button
             onClick={() => setActiveFilter('safe')}
             className={`px-2.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1 ${
               activeFilter === 'safe'
